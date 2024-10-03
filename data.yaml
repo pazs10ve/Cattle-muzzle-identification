@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['muzzle']
+
+roboflow:
+  workspace: mohit-sharma-akgo1
+  project: cattle-muzzle-detection-zjp6i
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohit-sharma-akgo1/cattle-muzzle-detection-zjp6i/dataset/1
